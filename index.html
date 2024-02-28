@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" onsubmit="return RegistrationForm()">
+          <h1>Registration Form</h1>
+          <label>Name:</label>
+          <input
+            type="text"
+            id="userName"
+            placeholder="enter youe the full name"
+            required/>
+            <span id="userName-error"></span>
+          <br /><br />
+  
+             <label>Age:</label>
+          <input
+            type="number"
+            id="age"
+            placeholder="enter age"
+            required />
+            <span id="age-error"></span>
+            <br /><br />
+  
+        <label>Place:</label>
+          <input
+            type="text"
+            id="place" 
+            placeholder="enter place"
+            required/>
+            <span id="place-error"></span>
+            <br /><br />
+  
+          <label>Hobby:</label>
+          <input 
+          type="text" 
+          id="hobby"
+          placeholder="enter your hobby"
+          required/>
+          <span id="hobby-error"></span>
+          <br/><br/>
+  
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31rem;
+  }
+
+  .form-container{
+    padding: 49px 49px;
+    background-color: white;
+    text-align: center;
+    }
+
+    input{
+        width: 200px;
+padding: 5px 0;
+margin: 5px 0;
+    }
+
+    input[type="submit"]{
+        width: 200px;
+border: 0px;
+color: white;
+background-color: brown;
+margin-left: 66px;
+padding: 10px;
+    }
+
+h1{
+    margin:10px 0;
+}
